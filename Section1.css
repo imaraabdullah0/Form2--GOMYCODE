@@ -1,0 +1,59 @@
+.container1{
+    height: 500px;
+    
+    background-image: url('https://cdn.website-editor.net/d50a05575dee4f8582c4f4963491988c/dms3rep/multi/AdobeStock_287005133-fb5ea4f6-0cfc9f42.jpg') ;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-line-clamp: 1;
+}
+
+.form{
+    height: min-content;
+    margin-top: 3rem;
+}
+
+.who{
+    padding: 3rem;
+    padding-bottom: 0px;
+    
+}
+
+.h2{
+    font-weight: 900;
+    font-size:xx-large;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.495);
+    color: rgba(68, 83, 173, 0.653);
+    text-decoration: underline;
+}
+
+.p{
+    font-weight: 300;
+    font-size:large;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.495);
+    color: rgba(5, 5, 6, 0.653);
+    background-color: rgba(51, 50, 50, 0.379);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+
+@media screen and (max-width:767px) {
+    .container1{
+        height: auto;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column;
+        font-size: smaller;
+    }
+    .form{
+        height: min-content;
+        margin-top: 4rem;
+    }
+
+    .p{
+        font-size: small;
+        height: 400px;
+  }
+    
+}

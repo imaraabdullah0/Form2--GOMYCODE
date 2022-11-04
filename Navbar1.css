@@ -1,0 +1,19 @@
+.navbar{
+    background-color: rgb(78, 75, 75);
+}
+
+.logo{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family:cursive;
+    text-decoration: overline;
+    /* background-image: url('https://th.bing.com/th/id/OIP.To_8hVBYVH4Pc7CZ0WzM_AHaE9?pid=ImgDet&rs=1'); */
+    color: azure;
+}
+
+.logo:hover{
+    color: rgb(114, 150, 150);
+    cursor: pointer;
+}
